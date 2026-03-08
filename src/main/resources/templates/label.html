@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>label</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<nav>
+    <a href="/index">Inicio</a>
+    <a href="/form">Anterior</a>
+    <a href="/input">Siguiente</a>
+</nav>
+<h1>Etiqueta label</h1>
+<h2>Descripción</h2>
+<p>La etiqueta &lt;label&gt; se utiliza para asociar un texto descriptivo con un campo de formulario (como input, textarea, select).
+    Sirve para que el usuario sepa qué información debe escribir en cada campo.
+
+    Además, mejora la accesibilidad, porque al hacer clic en el texto del label también se activa el campo correspondiente.</p>
+<h2>Sintaxis básica</h2>
+&lt;label for="id_del_input">Texto del campo&gt;
+&lt;input type="text" id="id_del_input"&gt;
+<h2>Atributos comunes</h2>
+
+<ul>
+    <li>for</li>
+    <li>id</li>
+    <li>class</li>
+    <li>style</li>
+    <li>title</li>
+</ul>
+<h2>Ejemplo funcional</h2>
+
+<form>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre"><br><br>
+
+    <label for="correo">Correo electrónico:</label>
+    <input type="email" id="correo" name="correo"><br><br>
+
+    <input type="submit" value="Enviar">
+</form>
+
+<h2>Código mostrado en pantalla</h2>
+<pre>
+&lt;label for="nombre"&gt;Nombre:&lt;/label&gt;
+&lt;input type="text" id="nombre"&gt;
+</pre>
+</body>
+</html>
